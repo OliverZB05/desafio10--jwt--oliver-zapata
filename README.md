@@ -1,4 +1,4 @@
-# desafio9--authentication--oliver-zapata
+# desafio10--authentication--oliver-zapata
 
 ## Pasos para ejecutarlo
 
@@ -103,10 +103,6 @@ Este método eliminará todos los productos de un carrito según su id
 ### (Los métodos este router solo se pueden en la web usando el navegador del lado del cliente)<br>
 Este router usa las rutas http://localhost:8080/products y http://localhost:8080/carts/646b7bbcb035a38e23da5ad8 específicadas en la guía de rutas
 
-
-# NUEVAS IMPLEMENTACIONES<br>
-Se agregó passport al proyecto para agregar una estrategía local y una que permite registrarse con github, y con ese cambio se crearon 2 archivos en los que se almacena la lógica de los métodos.
-
 ### Métodos de passport.config.js<br>
 
 - Método register de passport
@@ -144,3 +140,9 @@ http://localhost:8080/api/sessions/github-callback
 ### Métodos del router views.router.js<br>
 
 En este router se renderizan las vistas de registro y de login mostradas en las rutas anotadas del router session.router.js, solo que en sessions.router.js se encuentra la lógica para que el funcionamiento de esas vistas funcione
+
+### Nuevas implementaciones
+
+- Ahora se maneja jwt en conjunto con passport<br>
+- Se añadió una nueva ruta http://localhost:8080/api/sessions/current donde se ve el usuario
+- Ahora los métodos get del carrito de compras está asociado a los usuarios por lo que solo se verán los carritos que haya creado el usuario registrado
