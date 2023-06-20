@@ -1,0 +1,17 @@
+<h1>Carrito</h1>
+<ul id="cart-list">
+{{#each products}}
+<li>{{this.title}} - {{this.price}} x {{this.quantity}}</li>
+{{/each}}
+</ul>
+
+{{#if prevPage}}
+<a href="/carts/{{cartId}}?page={{prevPage}}">Anterior</a>
+{{/if}}
+{{#if nextPage}}
+<a href="/carts/{{cartId}}?page={{nextPage}}">Siguiente</a>
+{{/if}}
+
+<script src="/socket.io/socket.io.js"></script> 
+<script src="/js/cart-JS.js"></script>
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>

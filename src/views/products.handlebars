@@ -1,0 +1,35 @@
+<div>
+    <h1>Te damos la bienvenida {{user.name}}</h1>
+    <p>Nombre: {{user.name}}</p>
+    <p>Correo: {{user.email}}</p>
+    <p>Edad: {{user.age}}</p>
+    <p>Rol: {{user.role}}</p>
+    <a href="/api/sessions/logout"><button>Salir</button></a><br>
+</div> <br>
+
+
+<ul id="products-list">
+{{#each products}}
+    <li>
+    <h2>Nombre: {{this.title}}</h2>
+    <p>Descripción: {{this.description}}</p>
+    <p>Precio: {{this.price}}</p>
+    <p>Stock: {{this.stock}}</p>
+    <p>Categoría: {{this.category}}</p>
+    <button onclick="addToCart('{{this._id}}')">Agregar al carrito</button>
+    </li>
+{{/each}}
+</ul>
+
+
+{{#if prevPage}}
+<a href="/products?page={{prevPage}}">Anterior</a>
+{{/if}}
+{{#if nextPage}}
+<a href="/products?page={{nextPage}}">Siguiente</a>
+{{/if}}
+
+
+<script src="/socket.io/socket.io.js"></script>  
+<script src="/js/product-JS.js"></script>
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>

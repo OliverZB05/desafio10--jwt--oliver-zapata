@@ -1,0 +1,12 @@
+[
+{"title":"Silla de oficina","description":"Silla de oficina en excelente estado","price": 3000,"thumbnail":["https://i.ibb.co/P9Ytc2W/1-Silla-de-oficina.png"],"stock": 20,"category":"Productos del hogar"},
+{"title":"Smartwatch","description":"reloj digital deportivo","price": 3000,"thumbnail":["https://i.ibb.co/0rzKD6R/23-Smartwatch.png"],"stock": 15,"category":"Electrodomésticos"},
+{"title":"Juego de utensilios","description":"Alguna descripción","price": 3000,"thumbnail":["https://i.ibb.co/SKzjmrP/16-Juego-de-utencilios.jpg"],"stock": 30,"category":"Productos de cocina"},
+{"title":"Cafetera","description":"El mejor producto de cocina para las mañanas","price": 500,"thumbnail":["https://i.ibb.co/HYFpnNB/18-Cafetera.jpg"],"stock": 30,"category":"Productos de cocina"},
+{"title":"Batidora","description":"Alguna descripción","price": 3000,"thumbnail":["https://i.ibb.co/yhfJCXj/17-Batidora.jpg"],"stock": 30,"category":"Productos de cocina"},
+{"title":"SmartTV","description":"Alguna descripción","price": 2000,"thumbnail":["https://i.ibb.co/7j8dYDz/30-Smart-TV.jpg"],"stock": 30,"category":"Electrodomésticos"},
+{"title":"Cámara","description":"Alguna descripción","price": 2000,"thumbnail":["https://i.ibb.co/RcXH3mP/31-C-mara.jpg"],"stock": 30,"category":"Electrodomésticos"},
+{"title":"Calefactor","description":"Alguna descripción","price": 2000,"thumbnail":["https://i.ibb.co/cYTkZ1q/32-Calefactor.jpg"],"stock": 30,"category":"Electrodomésticos"},
+{"title":"Alfombra","description":"Alguna descripción","price": 1000,"thumbnail":["https://i.ibb.co/vdx3JGq/10-Alfombra.jpg"],"stock": 30,"category":"Productos del hogar"},
+{"title":"Cama","description":"Alguna descripción","price": 1000,"thumbnail":["https://i.ibb.co/1LJdzgT/11-Cama.jpg"],"stock": 30,"category":"Productos del hogar"}
+]
